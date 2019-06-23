@@ -13,9 +13,10 @@ e = 0xA7
 f1 = 1+2j
 f2 = 1+2J
 # j도 쓰고 J도 씀
-f1.real
-f1.imag
-f1.conjugate()
+f1.real # 복소수의 실수부분
+f1.imag # 복소수의 허수부분
+f1.conjugate() # 복소수의 켤레복소수
+abs(f1) # 복소수의 절댓값
 
 # 사칙연산
 

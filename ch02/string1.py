@@ -27,17 +27,23 @@ a
 b
 c
 """)
+print('''
+d
+f
+g
+''')
 
 
 # 문자열 연산
-    # concat
+
+# concat
 first = "Kim"
 second = "Yewon"
 
 
 print(first + " " + second)
 
-    # multiple
+# multiple
 print('=' * 30)
 print('Middle of Program')
 print('=' * 30)

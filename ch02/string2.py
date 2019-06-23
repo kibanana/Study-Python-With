@@ -17,13 +17,14 @@ print(str2)
 
 # 문자열 수정
 python = "Pithon"
-# python[1] = 'y' # 에러 발생
+# python[1] = 'y' => 에러 발생
+# 문자열의 부분만 수정할 수는 없는 것 같다
 python = python[:1] + "y" + python[2:]
 print(python)
 
 # 문자열 포매팅
 str_fruit = "grape"
-a = "I eat %s (fruit)" % str_fruit
+a = "I eat %s" % str_fruit
 print(a)
 
 e1 = "sleepy"
@@ -31,7 +32,9 @@ e2 = "satisfied"
 str_introduction = "I'm %s and %s" % (e1, e2)
 print(str_introduction)
 
-# 포맷 코드와 '%' 을 같은 문자열에 사용하려면 '%%'로 나타내야함
+# 포맷 코드와 '%' 를 같은 문자열에 사용하려면 '%%'로 나타내야함
+
+# 포맷 코드가 %s 이면 어떤 값이든 문자열로 바꾸어서 처리한다
 
 # 포맷 코드와 숫자 - 정렬, 공백, 소수점
 str_num1 = "%8s is my birthday" % "0630"
@@ -95,14 +98,16 @@ print("I'm {0} now and I'm {1}".format("smiling", "good"))
 # 2) 이름
 print("I'm {face} now and I'm {feeling}".format(face="smiling", feeling="good"))
 # 3) 인덱스, 이름 혼용
+print("I'm {0} now and I'm {feeling}".format("smiling", feeling="good"))
+# print("I'm {face} now and I'm {0}".format(face="smiling", "good"))
 
 # 4) 정렬 (총 10글자)
 print("{0:<10}".format("Hello")) # 왼쪽정렬
 print("{0:>10}".format("Hello")) # 오른쪽정렬
-print("{0:^10}".format("Hello")) # 중간정렬
+print("{0:^10}".format("Hello")) # 가운데정렬
 
 # 5) 공백 채우기
-print("{0:=<10}".format("Hello")) # 왼쪽정렬시 공백문자 대신 '=' 사용
+print("{0:=^10}".format("Hello")) # 왼쪽정렬시 공백문자 대신 '=' 사용
 
 # 6) 소수점 표현
 print("{0:10.4f}".format(3.1234567)) # 왼쪽정렬시 공백문자 대신 '=' 사용
