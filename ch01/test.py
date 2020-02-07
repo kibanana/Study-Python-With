@@ -1,4 +1,4 @@
-print ("Hello World!")
+print("Hello World!")
 
 print()
 
@@ -8,7 +8,7 @@ b = 20
 print(a+b)
 
 if (a == 10):
-    print ("a는 10입니다")
+    print("a는 10입니다")
 
 print()
 

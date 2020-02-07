@@ -5,26 +5,27 @@ d = {
 }
 
 # keys
-print (d.keys())
+print(d.keys())
 
 for k in d.keys():
-    print (k)
+    print(k)
 
 list_k = list(d.keys()) # d의 keys 객체를 리스트로 변환
 
 # values
-print (d.values())
+print(d.values())
 
 for v in d.values():
-    print (v)
+    print(v)
 
 list_v = list(d.values()) # d의 values 객체를 리스트로 변환
 
 # items
-print (d.items())
+# (key, item) 형태의 튜플 리스트 반환
+print(d.items())
 
 # clear
-# print (d.clear()) # {}
+# print(d.clear()) # {}
 
 # get
 print(d.get('birth'))
