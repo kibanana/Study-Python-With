@@ -17,7 +17,7 @@ print('She said "Good job"')
 # print("She said "Good job"")
 
 # 백슬래시 이용
-print('She\'brother said \"I\'m sleepy\"')
+print('She\'s brother said \"I\'m sleepy\"')
 
 
 # 여러 줄인 문자열 변수에 대입

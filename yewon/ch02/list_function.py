@@ -8,6 +8,7 @@ print(test)
 # 범위 안의 값 수정
 # 인덱스가 개수에 맞지 않더라도 알아서 들어감
 test[0:2] = ['d','e','f']
+test[0:2] = ['d','e','f']
 print(test)
 
 # 리스트 요소 삭제
@@ -36,7 +37,7 @@ print(test)
 
 a = [10,9,8,7,6,5]
 print(a)
-a.sort()
+a.sort() # 오름차순
 print(a)
 
 print()
