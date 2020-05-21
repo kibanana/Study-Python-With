@@ -1,0 +1,30 @@
+ C 드라이브의 볼륨에는 이름이 없습니다.
+ 볼륨 일련 번호: 0AD2-0EFE
+
+ C:\Users\Yewon\Desktop\dev_workspace\Study_Python_With\yewon\ch05\function 디렉터리
+
+2020-05-22  오전 04:44    <DIR>          .
+2020-05-22  오전 04:44    <DIR>          ..
+2020-05-22  오전 02:59             1,216 class_park.py
+2020-05-22  오전 02:52               593 inner_bool.py
+2020-05-22  오전 04:19             3,302 inner_etc.py
+2020-05-22  오전 03:39               418 inner_filter.py
+2020-05-22  오전 04:14               475 inner_int_str.py
+2020-05-22  오전 03:59               510 inner_lambda.py
+2020-05-22  오전 04:12               420 inner_math.py
+2020-05-22  오전 12:23                 0 outer_calendar.py
+2020-05-22  오전 12:21                 0 outer_glob.py
+2020-05-22  오전 04:44             1,221 outer_os.py
+2020-05-22  오전 04:28               319 outer_pickle.py
+2020-05-22  오전 12:25                 0 outer_random.py
+2020-05-22  오전 12:20                 0 outer_shutil.py
+2020-05-22  오전 04:24               146 outer_sys.py
+2020-05-22  오전 12:21                 0 outer_tempfile.py
+2020-05-22  오전 12:21                 0 outer_time.py
+2020-05-22  오전 12:26                 0 outer_webbrowser.py
+2020-05-22  오전 04:44             1,496 popenResult.txt
+2020-05-22  오전 04:26                48 test.txt
+2020-05-22  오전 04:44    <DIR>          testDir
+2020-05-22  오전 02:59    <DIR>          __pycache__
+              19개 파일              10,164 바이트
+               4개 디렉터리  124,688,089,088 바이트 남음
