@@ -8,8 +8,9 @@ class Calculator(SimpleCalculator): # 다중상속 가능
   def say(self):
     print(self.sum)
 
-test = Calculator()
-test.add(500)
-test.say()
+if __name__ == "__main__":
+  test = Calculator()
+  test.add(500)
+  test.say()
 
-print(type(test))
+  print(type(test))

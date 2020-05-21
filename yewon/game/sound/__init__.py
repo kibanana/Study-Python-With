@@ -1,0 +1,1 @@
+__all__ = ['echo'] # from game.sound import * 할 때 import되는 모듈

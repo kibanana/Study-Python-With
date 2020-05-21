@@ -10,6 +10,10 @@ class HousePark:
     return "%s, %s이 동거하기 시작했습니다." % (self.fullname(), other.fullname())
   def __sub__(self, other):
     return "%s, %s이 동거를 그만뒀습니다." % (self.fullname(), other.fullname())
+  def __mul__(self, other):
+    return "%s, %s이 힘을 합해서 재산을 불렸습니다." % (self.fullname(), other.fullname())
+  def __truediv__(self, other):
+    return "%s, %s이 재산을 분할했습니다." % (self.fullname(), other.fullname())
 
 park = HousePark("유연")
 print(park.fullname())
@@ -25,5 +29,7 @@ print(kim.fullname())
 print(kim.travel("전라도"))
 
 print(park + kim)
+print(park * kim)
 
 print(park - kim)
+print(park / kim)
