@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # lambda는 def와 동일한 역할을 한다.
 # def를 사용하지 않아도 될 정도로 간단하거나 def를 쓸 수 없는 곳에 주로 쓴다.
 # lambda arg1, arg2, ... : 표현식

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 import sys
 
 # python pro_tab_into_space.py example.txt exampleResult.txt

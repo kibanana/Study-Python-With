@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 from calendar import calendar, prcal, prmonth, weekday, monthrange
 
 # 일 년 달력 보기

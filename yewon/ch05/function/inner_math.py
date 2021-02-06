@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # abs()
 print(abs(1))
 print(abs(-1))

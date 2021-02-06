@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # 문자열 인덱싱, 슬라이싱
 str = "Yewon is the best!"
 print(str[0])

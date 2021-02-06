@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 str_doing = 'hardwork'
 str_soyeon = 'soyeon did %s ' % str_doing
 print(str_soyeon)
@@ -8,6 +10,7 @@ print('='.join(str_equal))
 print('{0},{1}'.format('grape', 3000))
 print('{fruit},{price}'.format(fruit='apple', price=2000))
 print('{0}, {fruit}, {1}, {price}'.format('first', 'second', fruit='banana', price=2000))
+# print('{0}, {2}, {1}, {3}'.format('first', 'second', fruit='banana', price=2000)) # error
 
 # 정렬
 print('{0:>7}'.format('12345'))

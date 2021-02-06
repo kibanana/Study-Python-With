@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 from copy import copy
 from class_park import HousePark
 
@@ -43,7 +45,7 @@ print(id(result1))
 print(id(result2))
 
 # input()
-print(input("배고픈데 뭘 먹을까: "))
+# print(input("배고픈데 뭘 먹을까: "))
 
 # isinstance(), issubclass()
 # 첫 번째 인수로 인스턴스, 두 번째 인수로 클래스 이름을 받아서 True 또는 False를 리턴

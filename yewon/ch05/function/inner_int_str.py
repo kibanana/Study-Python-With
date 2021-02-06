@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # chr()
 print(chr(63)) # ?
 print(chr(65)) # A

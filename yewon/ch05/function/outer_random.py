@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 from random import random, randint, choice, shuffle
 
 # 0.0 ~ 1.0 실수 중 난수값

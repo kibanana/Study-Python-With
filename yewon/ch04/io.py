@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # 사용자 입출력
 x = input()
 print(x)
@@ -52,7 +54,7 @@ data = f.read()
 print(data)
 f.close()
 
-# 4. 파일에 새로운 내용 Append - Wirte 모드는 이미 존재하는 파일의 경우 그 파일의 내용이 모두 사라진다.
+# 4. 파일에 새로운 내용 Append - Wirte 모드는 이미 존재하는 파일인 경우 그 파일의 내용이 모두 사라진다.
 f = open('new_file.txt', 'a')
 for i in range(11, 20):
 	data = "%d번째 줄이다.\n" % i 

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # 리스트는 어떤 자료형이든 넣을 수 있다
 
 #  리스트 만들기
@@ -31,4 +33,4 @@ print(odd + test)
 print(odd * 2)
 
 print(str(test[0]) + "hi")
-# print(test[0] + "hi")
+# print(test[0] + "hi") # error

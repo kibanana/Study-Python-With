@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 import sys
 
 # option -o: 한 줄 -> 바로 다음 실행옵션이 저장할 값이다.

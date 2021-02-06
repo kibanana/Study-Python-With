@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 from time import time, localtime, asctime, ctime, strftime, strptime, sleep
 
 # time

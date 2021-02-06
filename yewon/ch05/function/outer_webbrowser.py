@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 from webbrowser import open, open_new, open_new_tab
 
 # 웹브라우저가 이미 실행된 상태면 주소로 이동하고,

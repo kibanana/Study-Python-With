@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 sleepy = True
 if sleepy is True:
   print('나 잔다')

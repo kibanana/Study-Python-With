@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 import tempfile
 # 파일을 임시로 만들어서 사용한다.
 

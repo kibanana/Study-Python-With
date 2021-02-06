@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 import os
 
 # os.walk() 함수 사용

@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # while
 i = 0
 while i < 10:

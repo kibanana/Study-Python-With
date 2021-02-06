@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 if 'Hello World':
   print('string1')
 

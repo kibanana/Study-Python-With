@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 rest_coffee = 10
 while True: # 무한루프
   money = int(input('돈을 넣어주세요 : '))

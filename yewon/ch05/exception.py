@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 try:
   a = 63 / 0
 except ZeroDivisionError as err:
@@ -51,10 +53,10 @@ class Bird:
   def fly(self): # '꼭 메서드 오버라이딩 해야 한다.'는 것을 나타낸다.
     raise NotImplementedError # 꼭 작성해야하는 부분이 구현되지 않았을 때 일부러 오류를 발생시키기 위해 사용한다.
 
-# class Eagle(Bird):
-#   pass # 아무것도 안함
-# eagle = Eagle()
-# eagle.fly()
+class Eagle(Bird):
+  pass # 아무것도 안함
+eagle = Eagle()
+eagle.fly()
 
 class Sparrow(Bird):
   def fly(self):

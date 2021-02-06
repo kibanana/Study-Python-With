@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 class HousePark:
   def __init__(self, firstname):
     self.lastname = "박"

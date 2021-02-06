@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 # filter(함수, 반복 가능한iterable 자료형)
 
 a = [i for i in range(15)]

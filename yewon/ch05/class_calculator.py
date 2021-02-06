@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*- 
+
 class SimpleCalculator:
   def __init__(self):
     self.sum = 0
